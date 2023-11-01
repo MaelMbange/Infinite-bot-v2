@@ -1,0 +1,1718 @@
+{
+    "data": {
+        "id": "de2105ed-fcaa-4160-8bbb-ed11909cfe14",
+        "details": {
+            "map": {
+                "id": "e67f1328-48b5-4d63-a577-4e03a5ee0673",
+                "version": "6737f9d3-5073-4b79-9aa8-e94c84abfd0c",
+                "name": "Megapolis",
+                "image_urls": {
+                    "hero": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/map/e67f1328-48b5-4d63-a577-4e03a5ee0673/6737f9d3-5073-4b79-9aa8-e94c84abfd0c/images/hero.jpg",
+                    "thumbnail": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/map/e67f1328-48b5-4d63-a577-4e03a5ee0673/6737f9d3-5073-4b79-9aa8-e94c84abfd0c/images/thumbnail.jpg",
+                    "screenshots": [
+                        "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/map/e67f1328-48b5-4d63-a577-4e03a5ee0673/6737f9d3-5073-4b79-9aa8-e94c84abfd0c/images/screenshot1.jpg",
+                        "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/map/e67f1328-48b5-4d63-a577-4e03a5ee0673/6737f9d3-5073-4b79-9aa8-e94c84abfd0c/images/screenshot2.jpg",
+                        "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/map/e67f1328-48b5-4d63-a577-4e03a5ee0673/6737f9d3-5073-4b79-9aa8-e94c84abfd0c/images/screenshot3.jpg"
+                    ]
+                },
+                "properties": {
+                    "level_id": "c7b7baf0-f206-11e4-ae9a-24be05e24f7e",
+                    "owner_type": "player"
+                }
+            },
+            "ugcgamevariant": {
+                "id": "2fa07c0b-88e8-4453-8b3b-dc8c66c49ae0",
+                "version": "f2e585eb-4728-4079-ad3d-6bea2e5e9304",
+                "name": "Husky Raid:CTF",
+                "image_urls": {
+                    "hero": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/2fa07c0b-88e8-4453-8b3b-dc8c66c49ae0/f2e585eb-4728-4079-ad3d-6bea2e5e9304/images/hero.jpg",
+                    "thumbnail": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/2fa07c0b-88e8-4453-8b3b-dc8c66c49ae0/f2e585eb-4728-4079-ad3d-6bea2e5e9304/images/thumbnail.jpg",
+                    "screenshots": [
+                        "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/2fa07c0b-88e8-4453-8b3b-dc8c66c49ae0/f2e585eb-4728-4079-ad3d-6bea2e5e9304/images/screenshot1.jpg"
+                    ]
+                },
+                "properties": {
+                    "category_id": 9,
+                    "engine_variant_id": "2e929efd-2d16-4027-9242-f60cfac6aabc",
+                    "owner_type": "cms"
+                }
+            },
+            "playlist": {
+                "id": "da024c44-7c2a-49bb-a6ff-8d91ac179900",
+                "version": "19bfb62e-76dd-46bf-ab6e-180e69b8873c",
+                "name": "Husky Raid",
+                "image_urls": {
+                    "hero": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/playlist/da024c44-7c2a-49bb-a6ff-8d91ac179900/19bfb62e-76dd-46bf-ab6e-180e69b8873c/images/hero.jpg",
+                    "thumbnail": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/playlist/da024c44-7c2a-49bb-a6ff-8d91ac179900/19bfb62e-76dd-46bf-ab6e-180e69b8873c/images/thumbnail.jpg",
+                    "screenshots": [
+                        "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/playlist/da024c44-7c2a-49bb-a6ff-8d91ac179900/19bfb62e-76dd-46bf-ab6e-180e69b8873c/images/screenshot1.jpg"
+                    ]
+                },
+                "attributes": {
+                    "active": true,
+                    "featured": false,
+                    "ranked": false
+                },
+                "properties": {
+                    "queue": "open-queue",
+                    "input": "crossplay",
+                    "experience": "arena"
+                }
+            }
+        },
+        "properties": {
+            "type": "matchmade",
+            "interaction": "pvp",
+            "experience": "arena"
+        },
+        "teams": [
+            {
+                "id": 0,
+                "name": "Eagle",
+                "rank": 1,
+                "outcome": "win",
+                "stats": {
+                    "core": {
+                        "summary": {
+                            "kills": 54,
+                            "deaths": 30,
+                            "assists": 12,
+                            "betrayals": 0,
+                            "suicides": 0,
+                            "spawns": 32,
+                            "max_killing_spree": 11,
+                            "vehicles": {
+                                "destroys": 0,
+                                "hijacks": 0
+                            },
+                            "medals": {
+                                "total": 38,
+                                "unique": 14
+                            },
+                            "objectives_completed": 0
+                        },
+                        "damage": {
+                            "taken": 8791,
+                            "dealt": 13600
+                        },
+                        "shots": {
+                            "fired": 886,
+                            "hit": 407,
+                            "missed": 479,
+                            "accuracy": 45.93679458239278
+                        },
+                        "rounds": {
+                            "won": 1,
+                            "lost": 0,
+                            "tied": 0
+                        },
+                        "breakdown": {
+                            "kills": {
+                                "melee": 3,
+                                "grenades": 3,
+                                "headshots": 9,
+                                "power_weapons": 27,
+                                "sticks": 0,
+                                "assassinations": 2,
+                                "vehicles": {
+                                    "splatters": 0
+                                },
+                                "miscellaneous": {
+                                    "repulsor": 0,
+                                    "fusion_coils": 0
+                                }
+                            },
+                            "assists": {
+                                "emp": 0,
+                                "driver": 0,
+                                "callouts": 3
+                            },
+                            "vehicles": {
+                                "destroys": [],
+                                "hijacks": []
+                            },
+                            "medals": [
+                                {
+                                    "id": 87172902,
+                                    "count": 4
+                                },
+                                {
+                                    "id": 1841872491,
+                                    "count": 1
+                                },
+                                {
+                                    "id": 3114137341,
+                                    "count": 1
+                                },
+                                {
+                                    "id": 1646928910,
+                                    "count": 5
+                                },
+                                {
+                                    "id": 622331684,
+                                    "count": 11
+                                },
+                                {
+                                    "id": 4229934157,
+                                    "count": 1
+                                },
+                                {
+                                    "id": 1210678802,
+                                    "count": 1
+                                },
+                                {
+                                    "id": 1512363953,
+                                    "count": 2
+                                },
+                                {
+                                    "id": 2063152177,
+                                    "count": 1
+                                },
+                                {
+                                    "id": 2780740615,
+                                    "count": 3
+                                },
+                                {
+                                    "id": 548533137,
+                                    "count": 2
+                                },
+                                {
+                                    "id": 4261842076,
+                                    "count": 1
+                                },
+                                {
+                                    "id": 3334154676,
+                                    "count": 1
+                                },
+                                {
+                                    "id": 1169390319,
+                                    "count": 4
+                                }
+                            ]
+                        },
+                        "kdr": 1.8,
+                        "kda": 28,
+                        "average_life_duration": {
+                            "seconds": 37,
+                            "human": "00h 00m 37s"
+                        },
+                        "scores": {
+                            "personal": 7185,
+                            "points": 3
+                        }
+                    },
+                    "mode": {
+                        "flag_capture_assists": 0,
+                        "flag_captures": 3,
+                        "flag_carriers_killed": 0,
+                        "flag_grabs": 0,
+                        "flag_returners_killed": 0,
+                        "flag_returns": 0,
+                        "flag_secures": 0,
+                        "flag_steals": 3,
+                        "kills_as_flag_carrier": 0,
+                        "kills_as_flag_returner": 0,
+                        "time_as_flag_carrier": {
+                            "seconds": 135,
+                            "human": "00h 02m 15s"
+                        }
+                    },
+                    "mmr": 1239.2180197618216
+                },
+                "odds": {
+                    "winning": 49.52155653680095,
+                    "losing": 50.47844346319905
+                }
+            },
+            {
+                "id": 1,
+                "name": "Cobra",
+                "rank": 2,
+                "outcome": "loss",
+                "stats": {
+                    "core": {
+                        "summary": {
+                            "kills": 30,
+                            "deaths": 55,
+                            "assists": 12,
+                            "betrayals": 0,
+                            "suicides": 1,
+                            "spawns": 59,
+                            "max_killing_spree": 3,
+                            "vehicles": {
+                                "destroys": 0,
+                                "hijacks": 0
+                            },
+                            "medals": {
+                                "total": 18,
+                                "unique": 10
+                            },
+                            "objectives_completed": 0
+                        },
+                        "damage": {
+                            "taken": 13936,
+                            "dealt": 8511
+                        },
+                        "shots": {
+                            "fired": 1226,
+                            "hit": 405,
+                            "missed": 821,
+                            "accuracy": 33.03425774877651
+                        },
+                        "rounds": {
+                            "won": 0,
+                            "lost": 1,
+                            "tied": 0
+                        },
+                        "breakdown": {
+                            "kills": {
+                                "melee": 2,
+                                "grenades": 0,
+                                "headshots": 5,
+                                "power_weapons": 13,
+                                "sticks": 0,
+                                "assassinations": 0,
+                                "vehicles": {
+                                    "splatters": 0
+                                },
+                                "miscellaneous": {
+                                    "repulsor": 0,
+                                    "fusion_coils": 0
+                                }
+                            },
+                            "assists": {
+                                "emp": 0,
+                                "driver": 0,
+                                "callouts": 0
+                            },
+                            "vehicles": {
+                                "destroys": [],
+                                "hijacks": []
+                            },
+                            "medals": [
+                                {
+                                    "id": 1512363953,
+                                    "count": 2
+                                },
+                                {
+                                    "id": 651256911,
+                                    "count": 1
+                                },
+                                {
+                                    "id": 87172902,
+                                    "count": 2
+                                },
+                                {
+                                    "id": 622331684,
+                                    "count": 5
+                                },
+                                {
+                                    "id": 1646928910,
+                                    "count": 1
+                                },
+                                {
+                                    "id": 3091261182,
+                                    "count": 1
+                                },
+                                {
+                                    "id": 3114137341,
+                                    "count": 1
+                                },
+                                {
+                                    "id": 3233952928,
+                                    "count": 3
+                                },
+                                {
+                                    "id": 2602963073,
+                                    "count": 1
+                                },
+                                {
+                                    "id": 2063152177,
+                                    "count": 1
+                                }
+                            ]
+                        },
+                        "kdr": 0.5454545454545454,
+                        "kda": -21,
+                        "average_life_duration": {
+                            "seconds": 6,
+                            "human": "00h 00m 06s"
+                        },
+                        "scores": {
+                            "personal": 3520,
+                            "points": 0
+                        }
+                    },
+                    "mode": {
+                        "flag_capture_assists": 0,
+                        "flag_captures": 0,
+                        "flag_carriers_killed": 0,
+                        "flag_grabs": 0,
+                        "flag_returners_killed": 0,
+                        "flag_returns": 0,
+                        "flag_secures": 0,
+                        "flag_steals": 0,
+                        "kills_as_flag_carrier": 0,
+                        "kills_as_flag_returner": 0,
+                        "time_as_flag_carrier": {
+                            "seconds": 0,
+                            "human": "00h 00m 00s"
+                        }
+                    },
+                    "mmr": 1263.1629763624048
+                },
+                "odds": {
+                    "winning": 50.47844346319905,
+                    "losing": 49.52155653680095
+                }
+            }
+        ],
+        "players": [
+            {
+                "name": "IceCurim",
+                "rank": 4,
+                "outcome": "win",
+                "attributes": {
+                    "resolved": true
+                },
+                "properties": {
+                    "type": "human",
+                    "team": {
+                        "id": 0,
+                        "name": "Eagle"
+                    }
+                },
+                "stats": {
+                    "core": {
+                        "summary": {
+                            "kills": 28,
+                            "deaths": 8,
+                            "assists": 5,
+                            "betrayals": 0,
+                            "suicides": 0,
+                            "spawns": 9,
+                            "max_killing_spree": 11,
+                            "vehicles": {
+                                "destroys": 0,
+                                "hijacks": 0
+                            },
+                            "medals": {
+                                "total": 21,
+                                "unique": 8
+                            },
+                            "objectives_completed": 0
+                        },
+                        "damage": {
+                            "taken": 2402,
+                            "dealt": 6821
+                        },
+                        "shots": {
+                            "fired": 373,
+                            "hit": 187,
+                            "missed": 186,
+                            "accuracy": 50.134048257372655
+                        },
+                        "rounds": {
+                            "won": 1,
+                            "lost": 0,
+                            "tied": 0
+                        },
+                        "breakdown": {
+                            "kills": {
+                                "melee": 1,
+                                "grenades": 2,
+                                "headshots": 5,
+                                "power_weapons": 19,
+                                "sticks": 0,
+                                "assassinations": 0,
+                                "vehicles": {
+                                    "splatters": 0
+                                },
+                                "miscellaneous": {
+                                    "repulsor": 0,
+                                    "fusion_coils": 0
+                                }
+                            },
+                            "assists": {
+                                "emp": 0,
+                                "driver": 0,
+                                "callouts": 0
+                            },
+                            "vehicles": {
+                                "destroys": [],
+                                "hijacks": []
+                            },
+                            "medals": [
+                                {
+                                    "id": 1646928910,
+                                    "count": 5
+                                },
+                                {
+                                    "id": 622331684,
+                                    "count": 8
+                                },
+                                {
+                                    "id": 1210678802,
+                                    "count": 1
+                                },
+                                {
+                                    "id": 1512363953,
+                                    "count": 2
+                                },
+                                {
+                                    "id": 2063152177,
+                                    "count": 1
+                                },
+                                {
+                                    "id": 2780740615,
+                                    "count": 2
+                                },
+                                {
+                                    "id": 4261842076,
+                                    "count": 1
+                                },
+                                {
+                                    "id": 1169390319,
+                                    "count": 1
+                                }
+                            ]
+                        },
+                        "kdr": 3.5,
+                        "kda": 21.66,
+                        "average_life_duration": {
+                            "seconds": 27,
+                            "human": "00h 00m 27s"
+                        },
+                        "scores": {
+                            "personal": 3050,
+                            "points": 0
+                        }
+                    },
+                    "mode": {
+                        "flag_capture_assists": 0,
+                        "flag_captures": 0,
+                        "flag_carriers_killed": 0,
+                        "flag_grabs": 0,
+                        "flag_returners_killed": 0,
+                        "flag_returns": 0,
+                        "flag_secures": 0,
+                        "flag_steals": 0,
+                        "kills_as_flag_carrier": 0,
+                        "kills_as_flag_returner": 0,
+                        "time_as_flag_carrier": {
+                            "seconds": 0,
+                            "human": "00h 00m 00s"
+                        }
+                    },
+                    "mmr": null
+                },
+                "participation": {
+                    "confirmed": null,
+                    "joined_in_progress": false,
+                    "joined_at": "2023-10-30T16:19:26.277Z",
+                    "left_at": null,
+                    "presence": {
+                        "beginning": true,
+                        "completion": true
+                    }
+                },
+                "progression": {
+                    "csr": null
+                },
+                "performances": {
+                    "kills": {
+                        "count": 28,
+                        "expected": 16.446630025351524,
+                        "standard_deviation": 4.048813749484483
+                    },
+                    "deaths": {
+                        "count": 8,
+                        "expected": 7.065806201919447,
+                        "standard_deviation": 4.048813749484483
+                    }
+                }
+            },
+            {
+                "name": "SirArthurias",
+                "rank": 1,
+                "outcome": "win",
+                "attributes": {
+                    "resolved": true
+                },
+                "properties": {
+                    "type": "human",
+                    "team": {
+                        "id": 0,
+                        "name": "Eagle"
+                    }
+                },
+                "stats": {
+                    "core": {
+                        "summary": {
+                            "kills": 20,
+                            "deaths": 8,
+                            "assists": 4,
+                            "betrayals": 0,
+                            "suicides": 0,
+                            "spawns": 8,
+                            "max_killing_spree": 7,
+                            "vehicles": {
+                                "destroys": 0,
+                                "hijacks": 0
+                            },
+                            "medals": {
+                                "total": 12,
+                                "unique": 8
+                            },
+                            "objectives_completed": 0
+                        },
+                        "damage": {
+                            "taken": 2212,
+                            "dealt": 4784
+                        },
+                        "shots": {
+                            "fired": 169,
+                            "hit": 113,
+                            "missed": 56,
+                            "accuracy": 66.86390532544378
+                        },
+                        "rounds": {
+                            "won": 1,
+                            "lost": 0,
+                            "tied": 0
+                        },
+                        "breakdown": {
+                            "kills": {
+                                "melee": 2,
+                                "grenades": 1,
+                                "headshots": 3,
+                                "power_weapons": 5,
+                                "sticks": 0,
+                                "assassinations": 2,
+                                "vehicles": {
+                                    "splatters": 0
+                                },
+                                "miscellaneous": {
+                                    "repulsor": 0,
+                                    "fusion_coils": 0
+                                }
+                            },
+                            "assists": {
+                                "emp": 0,
+                                "driver": 0,
+                                "callouts": 3
+                            },
+                            "vehicles": {
+                                "destroys": [],
+                                "hijacks": []
+                            },
+                            "medals": [
+                                {
+                                    "id": 87172902,
+                                    "count": 2
+                                },
+                                {
+                                    "id": 1841872491,
+                                    "count": 1
+                                },
+                                {
+                                    "id": 3114137341,
+                                    "count": 1
+                                },
+                                {
+                                    "id": 622331684,
+                                    "count": 3
+                                },
+                                {
+                                    "id": 548533137,
+                                    "count": 2
+                                },
+                                {
+                                    "id": 2780740615,
+                                    "count": 1
+                                },
+                                {
+                                    "id": 3334154676,
+                                    "count": 1
+                                },
+                                {
+                                    "id": 1169390319,
+                                    "count": 1
+                                }
+                            ]
+                        },
+                        "kdr": 2.5,
+                        "kda": 13.33,
+                        "average_life_duration": {
+                            "seconds": 31,
+                            "human": "00h 00m 31s"
+                        },
+                        "scores": {
+                            "personal": 2565,
+                            "points": 1
+                        }
+                    },
+                    "mode": {
+                        "flag_capture_assists": 0,
+                        "flag_captures": 1,
+                        "flag_carriers_killed": 0,
+                        "flag_grabs": 0,
+                        "flag_returners_killed": 0,
+                        "flag_returns": 0,
+                        "flag_secures": 0,
+                        "flag_steals": 1,
+                        "kills_as_flag_carrier": 0,
+                        "kills_as_flag_returner": 0,
+                        "time_as_flag_carrier": {
+                            "seconds": 5,
+                            "human": "00h 00m 05s"
+                        }
+                    },
+                    "mmr": null
+                },
+                "participation": {
+                    "confirmed": null,
+                    "joined_in_progress": false,
+                    "joined_at": "2023-10-30T16:19:26.284Z",
+                    "left_at": null,
+                    "presence": {
+                        "beginning": true,
+                        "completion": true
+                    }
+                },
+                "progression": {
+                    "csr": null
+                },
+                "performances": {
+                    "kills": {
+                        "count": 20,
+                        "expected": 16.94072753141785,
+                        "standard_deviation": 4.038902373138661
+                    },
+                    "deaths": {
+                        "count": 8,
+                        "expected": 6.966542387252443,
+                        "standard_deviation": 4.038902373138661
+                    }
+                }
+            },
+            {
+                "name": "iConn Cathach",
+                "rank": 1,
+                "outcome": "win",
+                "attributes": {
+                    "resolved": true
+                },
+                "properties": {
+                    "type": "human",
+                    "team": {
+                        "id": 0,
+                        "name": "Eagle"
+                    }
+                },
+                "stats": {
+                    "core": {
+                        "summary": {
+                            "kills": 4,
+                            "deaths": 8,
+                            "assists": 1,
+                            "betrayals": 0,
+                            "suicides": 0,
+                            "spawns": 8,
+                            "max_killing_spree": 1,
+                            "vehicles": {
+                                "destroys": 0,
+                                "hijacks": 0
+                            },
+                            "medals": {
+                                "total": 2,
+                                "unique": 2
+                            },
+                            "objectives_completed": 0
+                        },
+                        "damage": {
+                            "taken": 2280,
+                            "dealt": 814
+                        },
+                        "shots": {
+                            "fired": 46,
+                            "hit": 16,
+                            "missed": 30,
+                            "accuracy": 34.78260869565217
+                        },
+                        "rounds": {
+                            "won": 1,
+                            "lost": 0,
+                            "tied": 0
+                        },
+                        "breakdown": {
+                            "kills": {
+                                "melee": 0,
+                                "grenades": 0,
+                                "headshots": 1,
+                                "power_weapons": 2,
+                                "sticks": 0,
+                                "assassinations": 0,
+                                "vehicles": {
+                                    "splatters": 0
+                                },
+                                "miscellaneous": {
+                                    "repulsor": 0,
+                                    "fusion_coils": 0
+                                }
+                            },
+                            "assists": {
+                                "emp": 0,
+                                "driver": 0,
+                                "callouts": 0
+                            },
+                            "vehicles": {
+                                "destroys": [],
+                                "hijacks": []
+                            },
+                            "medals": [
+                                {
+                                    "id": 4229934157,
+                                    "count": 1
+                                },
+                                {
+                                    "id": 1169390319,
+                                    "count": 1
+                                }
+                            ]
+                        },
+                        "kdr": 0.5,
+                        "kda": -3.66,
+                        "average_life_duration": {
+                            "seconds": 31,
+                            "human": "00h 00m 31s"
+                        },
+                        "scores": {
+                            "personal": 795,
+                            "points": 1
+                        }
+                    },
+                    "mode": {
+                        "flag_capture_assists": 0,
+                        "flag_captures": 1,
+                        "flag_carriers_killed": 0,
+                        "flag_grabs": 0,
+                        "flag_returners_killed": 0,
+                        "flag_returns": 0,
+                        "flag_secures": 0,
+                        "flag_steals": 1,
+                        "kills_as_flag_carrier": 0,
+                        "kills_as_flag_returner": 0,
+                        "time_as_flag_carrier": {
+                            "seconds": 15,
+                            "human": "00h 00m 15s"
+                        }
+                    },
+                    "mmr": null
+                },
+                "participation": {
+                    "confirmed": null,
+                    "joined_in_progress": false,
+                    "joined_at": "2023-10-30T16:19:26.284Z",
+                    "left_at": null,
+                    "presence": {
+                        "beginning": true,
+                        "completion": true
+                    }
+                },
+                "progression": {
+                    "csr": null
+                },
+                "performances": {
+                    "kills": {
+                        "count": 4,
+                        "expected": 5.392065026671364,
+                        "standard_deviation": 3.708423121832315
+                    },
+                    "deaths": {
+                        "count": 8,
+                        "expected": 9.352225701233511,
+                        "standard_deviation": 3.708423121832315
+                    }
+                }
+            },
+            {
+                "name": "BennyLilly7706",
+                "rank": 1,
+                "outcome": "win",
+                "attributes": {
+                    "resolved": true
+                },
+                "properties": {
+                    "type": "human",
+                    "team": {
+                        "id": 0,
+                        "name": "Eagle"
+                    }
+                },
+                "stats": {
+                    "core": {
+                        "summary": {
+                            "kills": 2,
+                            "deaths": 6,
+                            "assists": 3,
+                            "betrayals": 0,
+                            "suicides": 0,
+                            "spawns": 7,
+                            "max_killing_spree": 1,
+                            "vehicles": {
+                                "destroys": 0,
+                                "hijacks": 0
+                            },
+                            "medals": {
+                                "total": 3,
+                                "unique": 2
+                            },
+                            "objectives_completed": 0
+                        },
+                        "damage": {
+                            "taken": 1897,
+                            "dealt": 1181
+                        },
+                        "shots": {
+                            "fired": 298,
+                            "hit": 91,
+                            "missed": 207,
+                            "accuracy": 30.536912751677853
+                        },
+                        "rounds": {
+                            "won": 1,
+                            "lost": 0,
+                            "tied": 0
+                        },
+                        "breakdown": {
+                            "kills": {
+                                "melee": 0,
+                                "grenades": 0,
+                                "headshots": 0,
+                                "power_weapons": 1,
+                                "sticks": 0,
+                                "assassinations": 0,
+                                "vehicles": {
+                                    "splatters": 0
+                                },
+                                "miscellaneous": {
+                                    "repulsor": 0,
+                                    "fusion_coils": 0
+                                }
+                            },
+                            "assists": {
+                                "emp": 0,
+                                "driver": 0,
+                                "callouts": 0
+                            },
+                            "vehicles": {
+                                "destroys": [],
+                                "hijacks": []
+                            },
+                            "medals": [
+                                {
+                                    "id": 87172902,
+                                    "count": 2
+                                },
+                                {
+                                    "id": 1169390319,
+                                    "count": 1
+                                }
+                            ]
+                        },
+                        "kdr": 0.3333333333333333,
+                        "kda": -3,
+                        "average_life_duration": {
+                            "seconds": 37,
+                            "human": "00h 00m 37s"
+                        },
+                        "scores": {
+                            "personal": 775,
+                            "points": 1
+                        }
+                    },
+                    "mode": {
+                        "flag_capture_assists": 0,
+                        "flag_captures": 1,
+                        "flag_carriers_killed": 0,
+                        "flag_grabs": 0,
+                        "flag_returners_killed": 0,
+                        "flag_returns": 0,
+                        "flag_secures": 0,
+                        "flag_steals": 1,
+                        "kills_as_flag_carrier": 0,
+                        "kills_as_flag_returner": 0,
+                        "time_as_flag_carrier": {
+                            "seconds": 114,
+                            "human": "00h 01m 54s"
+                        }
+                    },
+                    "mmr": null
+                },
+                "participation": {
+                    "confirmed": null,
+                    "joined_in_progress": false,
+                    "joined_at": "2023-10-30T16:19:26.284Z",
+                    "left_at": null,
+                    "presence": {
+                        "beginning": true,
+                        "completion": true
+                    }
+                },
+                "progression": {
+                    "csr": null
+                },
+                "performances": {
+                    "kills": {
+                        "count": 2,
+                        "expected": 7.4496585901737475,
+                        "standard_deviation": 3.9233574174931594
+                    },
+                    "deaths": {
+                        "count": 6,
+                        "expected": 8.903208686942559,
+                        "standard_deviation": 3.9233574174931594
+                    }
+                }
+            },
+            {
+                "name": "Tsxki",
+                "rank": 5,
+                "outcome": "loss",
+                "attributes": {
+                    "resolved": true
+                },
+                "properties": {
+                    "type": "human",
+                    "team": {
+                        "id": 1,
+                        "name": "Cobra"
+                    }
+                },
+                "stats": {
+                    "core": {
+                        "summary": {
+                            "kills": 10,
+                            "deaths": 16,
+                            "assists": 4,
+                            "betrayals": 0,
+                            "suicides": 0,
+                            "spawns": 17,
+                            "max_killing_spree": 3,
+                            "vehicles": {
+                                "destroys": 0,
+                                "hijacks": 0
+                            },
+                            "medals": {
+                                "total": 9,
+                                "unique": 6
+                            },
+                            "objectives_completed": 0
+                        },
+                        "damage": {
+                            "taken": 4315,
+                            "dealt": 3059
+                        },
+                        "shots": {
+                            "fired": 383,
+                            "hit": 179,
+                            "missed": 204,
+                            "accuracy": 46.73629242819843
+                        },
+                        "rounds": {
+                            "won": 0,
+                            "lost": 1,
+                            "tied": 0
+                        },
+                        "breakdown": {
+                            "kills": {
+                                "melee": 1,
+                                "grenades": 0,
+                                "headshots": 1,
+                                "power_weapons": 5,
+                                "sticks": 0,
+                                "assassinations": 0,
+                                "vehicles": {
+                                    "splatters": 0
+                                },
+                                "miscellaneous": {
+                                    "repulsor": 0,
+                                    "fusion_coils": 0
+                                }
+                            },
+                            "assists": {
+                                "emp": 0,
+                                "driver": 0,
+                                "callouts": 0
+                            },
+                            "vehicles": {
+                                "destroys": [],
+                                "hijacks": []
+                            },
+                            "medals": [
+                                {
+                                    "id": 87172902,
+                                    "count": 2
+                                },
+                                {
+                                    "id": 3233952928,
+                                    "count": 2
+                                },
+                                {
+                                    "id": 2602963073,
+                                    "count": 1
+                                },
+                                {
+                                    "id": 622331684,
+                                    "count": 2
+                                },
+                                {
+                                    "id": 1512363953,
+                                    "count": 1
+                                },
+                                {
+                                    "id": 2063152177,
+                                    "count": 1
+                                }
+                            ]
+                        },
+                        "kdr": 0.625,
+                        "kda": -4.66,
+                        "average_life_duration": {
+                            "seconds": 10,
+                            "human": "00h 00m 10s"
+                        },
+                        "scores": {
+                            "personal": 1220,
+                            "points": 0
+                        }
+                    },
+                    "mode": {
+                        "flag_capture_assists": 0,
+                        "flag_captures": 0,
+                        "flag_carriers_killed": 0,
+                        "flag_grabs": 0,
+                        "flag_returners_killed": 0,
+                        "flag_returns": 0,
+                        "flag_secures": 0,
+                        "flag_steals": 0,
+                        "kills_as_flag_carrier": 0,
+                        "kills_as_flag_returner": 0,
+                        "time_as_flag_carrier": {
+                            "seconds": 0,
+                            "human": "00h 00m 00s"
+                        }
+                    },
+                    "mmr": null
+                },
+                "participation": {
+                    "confirmed": null,
+                    "joined_in_progress": false,
+                    "joined_at": "2023-10-30T16:19:26.284Z",
+                    "left_at": null,
+                    "presence": {
+                        "beginning": true,
+                        "completion": true
+                    }
+                },
+                "progression": {
+                    "csr": null
+                },
+                "performances": {
+                    "kills": {
+                        "count": 10,
+                        "expected": 12.595626272640395,
+                        "standard_deviation": 4.118000667387206
+                    },
+                    "deaths": {
+                        "count": 16,
+                        "expected": 11.773450844229817,
+                        "standard_deviation": 4.118000667387206
+                    }
+                }
+            },
+            {
+                "name": "xTweety22",
+                "rank": 7,
+                "outcome": "dnf",
+                "attributes": {
+                    "resolved": true
+                },
+                "properties": {
+                    "type": "human",
+                    "team": {
+                        "id": 1,
+                        "name": "Cobra"
+                    }
+                },
+                "stats": {
+                    "core": {
+                        "summary": {
+                            "kills": 6,
+                            "deaths": 5,
+                            "assists": 4,
+                            "betrayals": 0,
+                            "suicides": 1,
+                            "spawns": 6,
+                            "max_killing_spree": 2,
+                            "vehicles": {
+                                "destroys": 0,
+                                "hijacks": 0
+                            },
+                            "medals": {
+                                "total": 4,
+                                "unique": 4
+                            },
+                            "objectives_completed": 0
+                        },
+                        "damage": {
+                            "taken": 1435,
+                            "dealt": 1619
+                        },
+                        "shots": {
+                            "fired": 554,
+                            "hit": 109,
+                            "missed": 445,
+                            "accuracy": 19.67509025270758
+                        },
+                        "rounds": {
+                            "won": 0,
+                            "lost": 0,
+                            "tied": 0
+                        },
+                        "breakdown": {
+                            "kills": {
+                                "melee": 0,
+                                "grenades": 0,
+                                "headshots": 2,
+                                "power_weapons": 0,
+                                "sticks": 0,
+                                "assassinations": 0,
+                                "vehicles": {
+                                    "splatters": 0
+                                },
+                                "miscellaneous": {
+                                    "repulsor": 0,
+                                    "fusion_coils": 0
+                                }
+                            },
+                            "assists": {
+                                "emp": 0,
+                                "driver": 0,
+                                "callouts": 0
+                            },
+                            "vehicles": {
+                                "destroys": [],
+                                "hijacks": []
+                            },
+                            "medals": [
+                                {
+                                    "id": 1512363953,
+                                    "count": 1
+                                },
+                                {
+                                    "id": 651256911,
+                                    "count": 1
+                                },
+                                {
+                                    "id": 3091261182,
+                                    "count": 1
+                                },
+                                {
+                                    "id": 622331684,
+                                    "count": 1
+                                }
+                            ]
+                        },
+                        "kdr": 1.2,
+                        "kda": 2.33,
+                        "average_life_duration": {
+                            "seconds": 23,
+                            "human": "00h 00m 23s"
+                        },
+                        "scores": {
+                            "personal": 700,
+                            "points": 0
+                        }
+                    },
+                    "mode": {
+                        "flag_capture_assists": 0,
+                        "flag_captures": 0,
+                        "flag_carriers_killed": 0,
+                        "flag_grabs": 0,
+                        "flag_returners_killed": 0,
+                        "flag_returns": 0,
+                        "flag_secures": 0,
+                        "flag_steals": 0,
+                        "kills_as_flag_carrier": 0,
+                        "kills_as_flag_returner": 0,
+                        "time_as_flag_carrier": {
+                            "seconds": 0,
+                            "human": "00h 00m 00s"
+                        }
+                    },
+                    "mmr": null
+                },
+                "participation": {
+                    "confirmed": null,
+                    "joined_in_progress": false,
+                    "joined_at": "2023-10-30T16:19:26.284Z",
+                    "left_at": "2023-10-30T16:22:51.756Z",
+                    "presence": {
+                        "beginning": true,
+                        "completion": false
+                    }
+                },
+                "progression": {
+                    "csr": null
+                },
+                "performances": {
+                    "kills": {
+                        "count": 6,
+                        "expected": 4.721458787318284,
+                        "standard_deviation": 2.850854487328019
+                    },
+                    "deaths": {
+                        "count": 5,
+                        "expected": 7.181370492488688,
+                        "standard_deviation": 2.850854487328019
+                    }
+                }
+            },
+            {
+                "name": "slm1fg",
+                "rank": 7,
+                "outcome": "dnf",
+                "attributes": {
+                    "resolved": true
+                },
+                "properties": {
+                    "type": "human",
+                    "team": {
+                        "id": 1,
+                        "name": "Cobra"
+                    }
+                },
+                "stats": {
+                    "core": {
+                        "summary": {
+                            "kills": 6,
+                            "deaths": 10,
+                            "assists": 1,
+                            "betrayals": 0,
+                            "suicides": 0,
+                            "spawns": 10,
+                            "max_killing_spree": 2,
+                            "vehicles": {
+                                "destroys": 0,
+                                "hijacks": 0
+                            },
+                            "medals": {
+                                "total": 4,
+                                "unique": 3
+                            },
+                            "objectives_completed": 0
+                        },
+                        "damage": {
+                            "taken": 2512,
+                            "dealt": 1480
+                        },
+                        "shots": {
+                            "fired": 66,
+                            "hit": 22,
+                            "missed": 44,
+                            "accuracy": 33.33333333333333
+                        },
+                        "rounds": {
+                            "won": 0,
+                            "lost": 0,
+                            "tied": 0
+                        },
+                        "breakdown": {
+                            "kills": {
+                                "melee": 0,
+                                "grenades": 0,
+                                "headshots": 0,
+                                "power_weapons": 5,
+                                "sticks": 0,
+                                "assassinations": 0,
+                                "vehicles": {
+                                    "splatters": 0
+                                },
+                                "miscellaneous": {
+                                    "repulsor": 0,
+                                    "fusion_coils": 0
+                                }
+                            },
+                            "assists": {
+                                "emp": 0,
+                                "driver": 0,
+                                "callouts": 0
+                            },
+                            "vehicles": {
+                                "destroys": [],
+                                "hijacks": []
+                            },
+                            "medals": [
+                                {
+                                    "id": 622331684,
+                                    "count": 2
+                                },
+                                {
+                                    "id": 1646928910,
+                                    "count": 1
+                                },
+                                {
+                                    "id": 3114137341,
+                                    "count": 1
+                                }
+                            ]
+                        },
+                        "kdr": 0.6,
+                        "kda": -3.66,
+                        "average_life_duration": {
+                            "seconds": 10,
+                            "human": "00h 00m 10s"
+                        },
+                        "scores": {
+                            "personal": 650,
+                            "points": 0
+                        }
+                    },
+                    "mode": {
+                        "flag_capture_assists": 0,
+                        "flag_captures": 0,
+                        "flag_carriers_killed": 0,
+                        "flag_grabs": 0,
+                        "flag_returners_killed": 0,
+                        "flag_returns": 0,
+                        "flag_secures": 0,
+                        "flag_steals": 0,
+                        "kills_as_flag_carrier": 0,
+                        "kills_as_flag_returner": 0,
+                        "time_as_flag_carrier": {
+                            "seconds": 0,
+                            "human": "00h 00m 00s"
+                        }
+                    },
+                    "mmr": null
+                },
+                "participation": {
+                    "confirmed": null,
+                    "joined_in_progress": false,
+                    "joined_at": "2023-10-30T16:19:26.284Z",
+                    "left_at": "2023-10-30T16:23:15.014Z",
+                    "presence": {
+                        "beginning": true,
+                        "completion": false
+                    }
+                },
+                "progression": {
+                    "csr": null
+                },
+                "performances": {
+                    "kills": {
+                        "count": 6,
+                        "expected": 6.593322831419767,
+                        "standard_deviation": 3.1634086230080047
+                    },
+                    "deaths": {
+                        "count": 10,
+                        "expected": 7.697576577263181,
+                        "standard_deviation": 3.1634086230080047
+                    }
+                }
+            },
+            {
+                "name": "JurassikMarv1",
+                "rank": 5,
+                "outcome": "loss",
+                "attributes": {
+                    "resolved": true
+                },
+                "properties": {
+                    "type": "human",
+                    "team": {
+                        "id": 1,
+                        "name": "Cobra"
+                    }
+                },
+                "stats": {
+                    "core": {
+                        "summary": {
+                            "kills": 8,
+                            "deaths": 21,
+                            "assists": 3,
+                            "betrayals": 0,
+                            "suicides": 0,
+                            "spawns": 22,
+                            "max_killing_spree": 2,
+                            "vehicles": {
+                                "destroys": 0,
+                                "hijacks": 0
+                            },
+                            "medals": {
+                                "total": 1,
+                                "unique": 1
+                            },
+                            "objectives_completed": 0
+                        },
+                        "damage": {
+                            "taken": 4988,
+                            "dealt": 2194
+                        },
+                        "shots": {
+                            "fired": 222,
+                            "hit": 95,
+                            "missed": 127,
+                            "accuracy": 42.792792792792795
+                        },
+                        "rounds": {
+                            "won": 0,
+                            "lost": 1,
+                            "tied": 0
+                        },
+                        "breakdown": {
+                            "kills": {
+                                "melee": 1,
+                                "grenades": 0,
+                                "headshots": 2,
+                                "power_weapons": 3,
+                                "sticks": 0,
+                                "assassinations": 0,
+                                "vehicles": {
+                                    "splatters": 0
+                                },
+                                "miscellaneous": {
+                                    "repulsor": 0,
+                                    "fusion_coils": 0
+                                }
+                            },
+                            "assists": {
+                                "emp": 0,
+                                "driver": 0,
+                                "callouts": 0
+                            },
+                            "vehicles": {
+                                "destroys": [],
+                                "hijacks": []
+                            },
+                            "medals": [
+                                {
+                                    "id": 3233952928,
+                                    "count": 1
+                                }
+                            ]
+                        },
+                        "kdr": 0.38095238095238093,
+                        "kda": -12,
+                        "average_life_duration": {
+                            "seconds": 6,
+                            "human": "00h 00m 06s"
+                        },
+                        "scores": {
+                            "personal": 950,
+                            "points": 0
+                        }
+                    },
+                    "mode": {
+                        "flag_capture_assists": 0,
+                        "flag_captures": 0,
+                        "flag_carriers_killed": 0,
+                        "flag_grabs": 0,
+                        "flag_returners_killed": 0,
+                        "flag_returns": 0,
+                        "flag_secures": 0,
+                        "flag_steals": 0,
+                        "kills_as_flag_carrier": 0,
+                        "kills_as_flag_returner": 0,
+                        "time_as_flag_carrier": {
+                            "seconds": 0,
+                            "human": "00h 00m 00s"
+                        }
+                    },
+                    "mmr": null
+                },
+                "participation": {
+                    "confirmed": null,
+                    "joined_in_progress": false,
+                    "joined_at": "2023-10-30T16:19:26.284Z",
+                    "left_at": null,
+                    "presence": {
+                        "beginning": true,
+                        "completion": true
+                    }
+                },
+                "progression": {
+                    "csr": null
+                },
+                "performances": {
+                    "kills": {
+                        "count": 8,
+                        "expected": 1.7187645604087227,
+                        "standard_deviation": 2.456927114616765
+                    },
+                    "deaths": {
+                        "count": 21,
+                        "expected": 14.331039212380249,
+                        "standard_deviation": 2.456927114616765
+                    }
+                }
+            },
+            {
+                "name": "BigDamnHero74",
+                "rank": 7,
+                "outcome": "dnf",
+                "attributes": {
+                    "resolved": true
+                },
+                "properties": {
+                    "type": "human",
+                    "team": {
+                        "id": 1,
+                        "name": "Cobra"
+                    }
+                },
+                "stats": {
+                    "core": {
+                        "summary": {
+                            "kills": 0,
+                            "deaths": 3,
+                            "assists": 0,
+                            "betrayals": 0,
+                            "suicides": 0,
+                            "spawns": 4,
+                            "max_killing_spree": 0,
+                            "vehicles": {
+                                "destroys": 0,
+                                "hijacks": 0
+                            },
+                            "medals": {
+                                "total": 0,
+                                "unique": 0
+                            },
+                            "objectives_completed": 0
+                        },
+                        "damage": {
+                            "taken": 686,
+                            "dealt": 159
+                        },
+                        "shots": {
+                            "fired": 1,
+                            "hit": 0,
+                            "missed": 1,
+                            "accuracy": 0
+                        },
+                        "rounds": {
+                            "won": 0,
+                            "lost": 0,
+                            "tied": 0
+                        },
+                        "breakdown": {
+                            "kills": {
+                                "melee": 0,
+                                "grenades": 0,
+                                "headshots": 0,
+                                "power_weapons": 0,
+                                "sticks": 0,
+                                "assassinations": 0,
+                                "vehicles": {
+                                    "splatters": 0
+                                },
+                                "miscellaneous": {
+                                    "repulsor": 0,
+                                    "fusion_coils": 0
+                                }
+                            },
+                            "assists": {
+                                "emp": 0,
+                                "driver": 0,
+                                "callouts": 0
+                            },
+                            "vehicles": {
+                                "destroys": [],
+                                "hijacks": []
+                            },
+                            "medals": []
+                        },
+                        "kdr": 0,
+                        "kda": -3,
+                        "average_life_duration": {
+                            "seconds": 2,
+                            "human": "00h 00m 02s"
+                        },
+                        "scores": {
+                            "personal": 0,
+                            "points": 0
+                        }
+                    },
+                    "mode": {
+                        "flag_capture_assists": 0,
+                        "flag_captures": 0,
+                        "flag_carriers_killed": 0,
+                        "flag_grabs": 0,
+                        "flag_returners_killed": 0,
+                        "flag_returns": 0,
+                        "flag_secures": 0,
+                        "flag_steals": 0,
+                        "kills_as_flag_carrier": 0,
+                        "kills_as_flag_returner": 0,
+                        "time_as_flag_carrier": {
+                            "seconds": 0,
+                            "human": "00h 00m 00s"
+                        }
+                    },
+                    "mmr": null
+                },
+                "participation": {
+                    "confirmed": null,
+                    "joined_in_progress": true,
+                    "joined_at": "2023-10-30T16:22:52.706Z",
+                    "left_at": "2023-10-30T16:24:25.386Z",
+                    "presence": {
+                        "beginning": false,
+                        "completion": false
+                    }
+                },
+                "progression": {
+                    "csr": null
+                },
+                "performances": {
+                    "kills": {
+                        "count": 0,
+                        "expected": 0,
+                        "standard_deviation": 0
+                    },
+                    "deaths": {
+                        "count": 3,
+                        "expected": 3.276277538141761,
+                        "standard_deviation": null
+                    }
+                }
+            }
+        ],
+        "season": {
+            "id": 5,
+            "version": 1,
+            "properties": {
+                "identifier": "Season5-Op1",
+                "csr": "CsrSeason5-1"
+            }
+        },
+        "playable_duration": {
+            "seconds": 362,
+            "human": "00h 06m 02s"
+        },
+        "started_at": "2023-10-30T16:19:26.277Z",
+        "ended_at": "2023-10-30T16:25:28.802Z"
+    },
+    "additional": {
+        "params": {
+            "guid": "de2105ed-fcaa-4160-8bbb-ed11909cfe14"
+        },
+        "query": {
+            "language": "en-US"
+        }
+    }
+}
