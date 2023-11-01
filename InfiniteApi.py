@@ -20,16 +20,28 @@ def get_last_game_info_of_pseudo(pseudo):
 
 
 def get_last_game_medals_list(pseudo):
-    game_stat = get_last_game_info_of_pseudo(pseudo)["players"]
-    for player in game_stat:
+    players_stat = get_last_game_info_of_pseudo(pseudo)["players"]
+    for player in players_stat:
         if player["name"] == pseudo:
             return player["stats"]["core"]["breakdown"]["medals"]
 
+
 def get_last_game_medals_count(pseudo):
-    game_stat = get_last_game_info_of_pseudo(pseudo)["players"]
-    for player in game_stat:
+    players_stat = get_last_game_info_of_pseudo(pseudo)["players"]
+    for player in players_stat:
         if player["name"] == pseudo:
             return player["stats"]["core"]["summary"]["medals"]["total"]
+
+
+#return a list of teams (-[team1, team2]-) 
+def get_last_game_teams(pseudo):
+    teams_stat = get_last_game_info_of_pseudo(pseudo)["teams"]
+    return teams_stat
+
+
+def get_last_game_team(pseudo,number:int):
+    teams_stat = get_last_game_teams(pseudo)
+    return teams_stat[number]
 
 
 def medal_image_url(medal_id, size=96):
@@ -42,4 +54,5 @@ def get_medal_image(medal_id, size=96):
 
 if __name__ == "__main__":
     #print(get_last_game_medals_list("IceCurim"))
-    print(get_last_game_info_of_pseudo("IceCurim"))
+    #print(get_last_game_info_of_pseudo("IceCurim"))
+    print(get_last_game_team("IceCurim", 0))

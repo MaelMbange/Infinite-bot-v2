@@ -42,3 +42,8 @@ class Medal:
         result.save(bin,format="PNG")
         bin.seek(0)
         return bin
+
+
+class Team:
+    def __init__(self):
+        

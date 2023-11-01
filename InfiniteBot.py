@@ -52,39 +52,41 @@ async def send_medal(message, gamertag:str=None):
 #========================================COMMAND-FUNCTIONS===================================================
 @bot.command(name="start")
 async def start(message, gamertag:str=None):
-    print("start")
+    print("start was called")
     print(gamertag)
     await send_medal(message, gamertag)
 
 
 @bot.command(name="stop")
 async def stop(message):
-    print("stop")
+    print("stop was called")
 
 
 @bot.command(name="register")
 async def register(message, gamertag:str=None):
-    print("register")
+    print("register was called")
 
 
 @bot.command(name="sayMyName")
 async def sayMyName(message):
-    print("sayMyName")
+    print("sayMyName was called")
 
 
 @bot.command(name="global")
 async def global_stats(message, gamertag:str=None):
-    print("global_stats")
+    print("global_stats was called")
 
 
 @bot.command(name="lastGame")
 async def last_game_stats(message, gamertag:str=None):
-    print("last_game_stats")
+    print("last_game_stats was called")
 
 
 @bot.command(name="clear")
 async def clear(message):
-    print("clear")
+    print("clear was called")
+    await clear_private(message)
+
 
 #============================================================================================================
 
