@@ -51,22 +51,20 @@ def medal_exists_in_local(id_medal=None) -> bool:
     return os.path.exists(f"{create_sub_directory()}/{id_medal}.png")
       
 
-def save_medal_in_local(id_medal=None,size=80):
-    img_medal = InfiniteApi.url_to_image(InfiniteApi.medal_url(id_medal,size))
+def save_medal_in_local(id_medal=None,size=96):
+    img_medal = InfiniteApi.get_medal_image(id_medal,size)
     if img_medal is not None and id_medal is not None:
         if not medal_exists_in_local(id_medal):
             img_medal.save(f"{create_sub_directory()}/{id_medal}.png")
             print(f"Medal {id_medal} saved in local")
 
 
-def get_medal_from_local(id_medal=None,size=80):
+def get_medal_from_local(id_medal=None,size=96):
     if id_medal is not None:
         if medal_exists_in_local(id_medal):
             return Image.open(f"{create_sub_directory()}/{id_medal}.png")
     save_medal_in_local(id_medal,size)
     return Image.open(f"{create_sub_directory()}/{id_medal}.png")
-
-
 
 
 if __name__ == "__main__":

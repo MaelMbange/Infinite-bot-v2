@@ -1,7 +1,7 @@
 import os
 import discord
 from discord.ext import commands
-
+from InfiniteForm import *
 
 
 token = os.getenv("INFINITE_BOT_TOKEN")
@@ -32,22 +32,29 @@ async def send_private(message, content:str):
         await dm_channel.send(content)
 
 
-async def send_image(message, image):
+async def send_image_private(message, image):
 	dm_channel = await message.author.create_dm()
 	await dm_channel.send(file=image)
 
 
 async def clear_private(message):
     dm_channel = await get_dm_channel(message)
-
     async for message in dm_channel.history(limit=None):
         if message.author == bot.user:
             await message.delete()
+
+async def send_medal(message, gamertag:str=None):
+    #if gamertag is None: gamertag = message.author.name => aller chercher info fichier     
+    img = Medal(gamertag)
+    content = img.retrieve_image()
+    async with message.typing(): await send_image_private(message, discord.File(content, filename=f"{gamertag}_medals.png"))
 
 #========================================COMMAND-FUNCTIONS===================================================
 @bot.command(name="start")
 async def start(message, gamertag:str=None):
     print("start")
+    print(gamertag)
+    await send_medal(message, gamertag)
 
 
 @bot.command(name="stop")

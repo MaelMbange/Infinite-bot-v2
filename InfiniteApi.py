@@ -25,6 +25,12 @@ def get_last_game_medals_list(pseudo):
         if player["name"] == pseudo:
             return player["stats"]["core"]["breakdown"]["medals"]
 
+def get_last_game_medals_count(pseudo):
+    game_stat = get_last_game_info_of_pseudo(pseudo)["players"]
+    for player in game_stat:
+        if player["name"] == pseudo:
+            return player["stats"]["core"]["summary"]["medals"]["total"]
+
 
 def medal_image_url(medal_id, size=96):
     return f"https://etxvqmdrjezgtwgueiar.supabase.co/storage/v1/render/image/public/assets/games/halo-infinite/metadata/multiplayer/medals/{medal_id}.png?width={size}&height={size}"
@@ -34,4 +40,6 @@ def get_medal_image(medal_id, size=96):
     return Image.open(BytesIO(requests.get(medal_image_url(medal_id, size)).content))
 
 
-print(get_last_game_medals_list("IceCurim"))
+if __name__ == "__main__":
+    #print(get_last_game_medals_list("IceCurim"))
+    print(get_last_game_info_of_pseudo("IceCurim"))
